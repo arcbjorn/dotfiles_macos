@@ -44,4 +44,6 @@ yabai -m config left_padding                 12
 yabai -m config right_padding                12
 yabai -m config window_gap                   06
 
+yabai -m rule --add app!="^(Chrome|Code|Slack|Spotify|Firefox)$" manage=off
+
 echo "yabai configuration loaded.."
