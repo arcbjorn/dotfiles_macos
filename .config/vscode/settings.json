@@ -1,0 +1,55 @@
+{
+    "workbench.colorTheme": "Arcbjorn Color Theme",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+  
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono, 'Courier New', monospace",
+    "extensions.ignoreRecommendations": true,
+  
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/node_modules/.cache/": true,
+      "node_modules": true,
+      "node_modules/.cache/": true
+    },
+  
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/node_modules/.cache/": true,
+      "node_modules": true,
+      "node_modules/.cache/": true
+    },
+  
+    "git.enableSmartCommit": true,
+    "editor.formatOnSave": true,
+    "explorer.openEditors.visible": 0,
+  
+    "protoc": {
+      "path": "/usr/local/bin/protoc",
+      "compile_on_save": false,
+      "options": ["--proto_path=proto"]
+    },
+    "workbench.iconTheme": "material-icon-theme",
+  
+    "[go]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "golang.go"
+    },
+    "gopls": {
+      "formatting.gofumpt": true
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "git.ignoreRebaseWarning": true,
+  
+    "eslint.options": {
+      "parserOptions": {
+        "createDefaultProgram": true
+      }
+    },
+    "css.lint.unknownAtRules": "ignore",
+    "svelte.enable-ts-plugin": true,
+  
+    "git-branch-wise-session.autoSaveBranchOnSwitch": true,
+    "git-branch-wise-session.shouldAutoRestoreOnBranchSwitches": true
+  }
+  
